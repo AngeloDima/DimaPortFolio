@@ -3,7 +3,8 @@ import './App.css';
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Home/Header/Header';
+
+import Home from './Home/Home';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Header />} />   
+            <Route path="/" element={<Home />} />   
         </Routes>
        </BrowserRouter>
     </div>
